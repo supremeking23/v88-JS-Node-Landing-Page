@@ -1,0 +1,57 @@
+body * {
+	/* outline: 1px dashed red; */
+}
+body {
+	position: relative;
+	/* font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif; */
+	background: url(https://images.wikia.com/naruto/images/5/50/Wiki-background), #fec355 !important;
+}
+
+header {
+	/* width: 1440px; */
+	margin: 0 auto 10px auto;
+	background: #195098;
+	padding: 20px;
+}
+header img {
+	max-width: 265px;
+	max-height: 65px;
+	width: auto;
+	height: auto;
+}
+
+.container {
+	width: 1440px;
+	margin: 0 auto;
+	/* text-align: center; */
+	position: relative;
+}
+
+.container img {
+	width: 250px;
+	height: 250px;
+}
+
+.jumbotron {
+	background-color: rgba(233, 236, 239, 0.8) !important;
+}
+
+.btn-primary {
+	border-color: #195098 !important;
+	background: #195098 !important;
+}
+
+fieldset {
+	background-color: rgba(254, 195, 85, 0.8);
+	padding: 20px;
+	/* border: 5px solid #fda501; */
+	box-shadow: 1px 0px 5px 11px rgba(253, 165, 1, 0.75);
+	-webkit-box-shadow: 1px 0px 5px 11px rgba(253, 165, 1, 0.75);
+	-moz-box-shadow: 1px 0px 5px 11px rgba(253, 165, 1, 0.75);
+}
+legend {
+	background-color: #feb122;
+	color: white;
+	padding: 5px 10px;
+	width: 50%;
+}
